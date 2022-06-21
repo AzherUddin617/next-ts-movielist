@@ -1,5 +1,6 @@
 .home {
   /* @apply overflow-hidden; */
+  @apply pl-6 md:pl-0;
 }
 
 .home .title {

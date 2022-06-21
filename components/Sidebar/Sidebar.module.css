@@ -3,22 +3,22 @@
 }
 
 .sidebar .container {
-  @apply flex flex-col items-center h-full p-4 bg-secondary-dark;
+  @apply flex md:flex-col items-center h-full p-4 bg-secondary-dark;
   @apply rounded-md shadow-sm;
 }
 
 .sidebar .container .logo {
-  @apply pb-6 text-primary text-3xl;
+  @apply pr-6 md:pr-0 md:pb-6 text-primary text-3xl;
 }
 .sidebar .container .logo .icon {
-  @apply cursor-pointer;
+  @appl y cursor-pointer;
 }
 
 .sidebar .container .list {
   @apply flex-1 flex md:flex-col items-center text-secondary text-xl;
 }
 .sidebar .container .list .item {
-  @apply py-0 md:py-2 cursor-pointer transition-colors;
+  @apply px-2 md:px-0 py-0 md:py-2 cursor-pointer transition-colors;
   /* @apply opacity-75 hover:opacity-100 active:text-white; */
   @apply hover:text-secondary-black;
 }

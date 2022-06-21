@@ -1,5 +1,5 @@
 .container {
-  @apply flex w-full h-screen;
+  @apply flex flex-col md:flex-row w-full h-screen;
   @apply pt-6;
 }
 
