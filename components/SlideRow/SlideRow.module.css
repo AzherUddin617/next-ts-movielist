@@ -1,0 +1,14 @@
+.slideRow {
+  @apply w-full;
+}
+
+.slideRow .title {
+  @apply text-2xl pb-4;
+}
+
+.slideRow .slider {
+  /* @apply w-full overflow-hidden; */
+}
+.slideRow .slider .list {
+  @apply flex overflow-x-scroll scrollbar-hide;
+}

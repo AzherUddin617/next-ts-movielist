@@ -1,0 +1,34 @@
+.movieItem {
+  @apply w-60 relative min-w-[15rem] mr-0 flex-[0_0_24%];
+}
+.movieItem.wide {
+  @apply w-80 min-w-[60vw] sm:min-w-[40vw] md:min-w-[28rem] mr-6;
+}
+
+.movieItem .coverImage {
+  @apply rounded-md object-cover;
+}
+.movieItem.wide .coverImage {
+  /* @apply w-80; */
+}
+
+.movieItem .info {
+  @apply p-4;
+}
+.movieItem.wide .info {
+  @apply absolute bottom-0 left-0;
+}
+.movieItem .info .details {
+  @apply text-white/60 text-sm;
+}
+.movieItem .info .name {
+}
+
+.movieItem .bookmark {
+  @apply absolute top-1 right-1 bg-secondary-black/50;
+  @apply p-2 rounded-full cursor-pointer;
+  @apply opacity-80 hover:opacity-100 transition-opacity;
+}
+.movieItem .bookmark .icon {
+  @apply text-white text-sm;
+}

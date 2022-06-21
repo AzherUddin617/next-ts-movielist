@@ -1,0 +1,9 @@
+.container {
+  @apply flex w-full h-screen;
+  @apply pt-6;
+}
+
+.container .main {
+  /* @apply flex-1 w-full; */
+  @apply overflow-x-hidden;
+}
