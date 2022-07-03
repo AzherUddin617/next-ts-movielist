@@ -1,4 +1,4 @@
-import { Movie } from '../../typings';
+import { Movie } from 'typings';
 import MovieItem from '../MovieItem/MovieItem';
 import classes from './SlideRow.module.css';
 

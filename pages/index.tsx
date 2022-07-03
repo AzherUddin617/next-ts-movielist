@@ -1,8 +1,8 @@
-import MovieItem from '../components/MovieItem/MovieItem'
-import SlideRow from '../components/SlideRow/SlideRow'
-import styles from '../styles/Home.module.css'
+import MovieItem from '@/components/MovieItem/MovieItem'
+import SlideRow from '@/components/SlideRow/SlideRow'
+import styles from '@/styles/Home.module.css'
 import { Movie } from '../typings'
-import request from '../utils/request'
+import request from '@/utils/request'
 
 interface Props {
   trendingMovies: Movie[];

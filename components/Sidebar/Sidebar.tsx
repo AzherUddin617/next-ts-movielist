@@ -25,7 +25,7 @@ const Sidebar = () => {
             <ul className={classes.list}>
                 {contents.map((content, index) => (
                     <Link key={index} href={content.link}>
-                        <li className={classes.item}>
+                        <li className={classes.item} title={content.title}>
                             <content.Icon className={classes.icon} />
                         </li>
                     </Link>

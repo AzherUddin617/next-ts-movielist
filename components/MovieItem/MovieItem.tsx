@@ -15,8 +15,8 @@ import {
 import {
     selectBookmarkData,
     toggleBookmark,
-} from '../../store/features/bookmarkSlice'
-import { isBookmarded } from '../../utils';
+} from '@/store/features/bookmarkSlice'
+import { isBookmarded } from '@/utils/index';
 
 interface Props {
     movie: Movie;

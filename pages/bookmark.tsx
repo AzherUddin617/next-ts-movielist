@@ -1,5 +1,5 @@
-import MovieItem from '../components/MovieItem/MovieItem'
-import styles from '../styles/Home.module.css'
+import MovieItem from '@/components/MovieItem/MovieItem'
+import styles from '@/styles/Home.module.css'
 
 import {
     useAppSelector,
